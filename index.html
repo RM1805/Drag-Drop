@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title">Draggable Items</h2>
+        <div id="container1" class="item-container">
+            <div class="item" draggable="true">Item 1</div>
+            <div class="item" draggable="true">Item 2</div>
+            <div class="item" draggable="true">Item 3</div>
+            <div class="item" draggable="true"><img
+                    src="https://img.freepik.com/free-photo/back-view-crowd-fans-watching-live-performance-music-concert-night-copy-space_637285-544.jpg?w=2000" />
+            </div>
+            <div class="item" draggable="true"><img
+                    src="https://images.cnbctv18.com/wp-content/uploads/2022/07/Cricket-Shutterstock-1019x573.jpg" />
+            </div>
+            <div class="item" draggable="true"><img
+                    src="https://assets.traveltriangle.com/blog/wp-content/uploads/2018/09/swiss-alps.jpg" />
+            </div>
+            <div class="item" draggable="true"><img
+                    src="https://cdn.sandals.com/beaches/v12/images/general/destinations/home/beach.jpg" />
+            </div>
+            <div class="item" draggable="true"><img
+                    src="https://akm-img-a-in.tosshub.com/sites/visualstory/stories/2022_12/story_14954/assets/2.jpeg?time=1670596814" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="title">Droppable Area</h2>
+        <div id="container2" class="item-container droppable"></div>
+        <div class="success-message"></div>
+        <button id="resetBtn">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
